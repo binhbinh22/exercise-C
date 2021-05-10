@@ -6,7 +6,7 @@ int main()
     for (int i = 1; i < 100; i++)
     {
         int count = 0; // đếm số ước của a
-        for (int j = 2; j <= sqrt(num); j++)
+        for (int j = 2; j <= sqrt(i); j++)
         {
             if (i % j == 0)
             {
@@ -14,7 +14,7 @@ int main()
             }
         }
         if (count == 0 && i > 1)
-            printf("%d\n", );
+            printf("%d\n",i );
     }
 
     return 0;
