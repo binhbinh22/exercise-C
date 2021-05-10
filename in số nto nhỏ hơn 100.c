@@ -3,18 +3,18 @@
 
 int main()
 {
-    for (int num = 1; num < 100; ++num)
+    for (int i = 1; i < 100; i++)
     {
         int count = 0; // đếm số ước của a
-        for (int i = 2; i <= sqrt(num); i++)
+        for (int j = 2; j <= sqrt(num); j++)
         {
-            if (num % i == 0)
+            if (i % j == 0)
             {
                 count++;
             }
         }
-        if (count == 0 && num > 1)
-            printf("%d\n", num);
+        if (count == 0 && i > 1)
+            printf("%d\n", );
     }
 
     return 0;
